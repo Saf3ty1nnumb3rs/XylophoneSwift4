@@ -21,8 +21,8 @@ class ViewController: UIViewController{
 
 
     @IBAction func notePressed(_ sender: UIButton) {
-        let num = sender.tag
-        playSound(num: num)
+        let tag = sender.tag
+        playSound(num: tag)
         
     }
     func playSound(num: Int) {
